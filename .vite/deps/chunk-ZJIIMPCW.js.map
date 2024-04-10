@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../node_modules/@prestashopcorp/puik/es/components/base/style/css.mjs"],
+  "sourcesContent": ["import '@prestashopcorp/puik/theme/base.css';\n//# sourceMappingURL=css.mjs.map\n"],
+  "mappings": ";AAAA,OAAO;",
+  "names": []
+}

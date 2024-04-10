@@ -1,0 +1,107 @@
+{
+  "hash": "92d9c030",
+  "browserHash": "0eace0e3",
+  "optimized": {
+    "pinia": {
+      "src": "../../node_modules/pinia/dist/pinia.mjs",
+      "file": "pinia.js",
+      "fileHash": "15d5e3ca",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "4f1a6173",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "ef9180d9",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/index.mjs",
+      "file": "@prestashopcorp_puik_es.js",
+      "fileHash": "926ea700",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/avatar/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/avatar/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_avatar_style_css.js",
+      "fileHash": "a0b6bab9",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/badge/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/badge/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_badge_style_css.js",
+      "fileHash": "064a7db6",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/chip/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/chip/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_chip_style_css.js",
+      "fileHash": "4ec36ccb",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/icon/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/icon/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_icon_style_css.js",
+      "fileHash": "f4549fd2",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/skeleton-loader-group/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/skeleton-loader-group/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_skeleton-loader-group_style_css.js",
+      "fileHash": "edfc994e",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/card/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/card/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_card_style_css.js",
+      "fileHash": "f19b0f17",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/skeleton-loader/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/skeleton-loader/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_skeleton-loader_style_css.js",
+      "fileHash": "b7c9b292",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/alert/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/alert/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_alert_style_css.js",
+      "fileHash": "206a35fb",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/button-group/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/button-group/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_button-group_style_css.js",
+      "fileHash": "82deee5f",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/button/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/button/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_button_style_css.js",
+      "fileHash": "645325e8",
+      "needsInterop": false
+    },
+    "@prestashopcorp/puik/es/components/table/style/css": {
+      "src": "../../node_modules/@prestashopcorp/puik/es/components/table/style/css.mjs",
+      "file": "@prestashopcorp_puik_es_components_table_style_css.js",
+      "fileHash": "0d663c2b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3GOOGFKQ": {
+      "file": "chunk-3GOOGFKQ.js"
+    },
+    "chunk-KOSMHDA3": {
+      "file": "chunk-KOSMHDA3.js"
+    },
+    "chunk-ZJIIMPCW": {
+      "file": "chunk-ZJIIMPCW.js"
+    }
+  }
+}

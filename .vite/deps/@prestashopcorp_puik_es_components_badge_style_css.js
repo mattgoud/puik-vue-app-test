@@ -1,0 +1,5 @@
+import "./chunk-ZJIIMPCW.js";
+
+// node_modules/@prestashopcorp/puik/es/components/badge/style/css.mjs
+import "/home/mattgoud/squad-compliance/vue-test-project/node_modules/@prestashopcorp/puik/theme/puik-badge.css";
+//# sourceMappingURL=@prestashopcorp_puik_es_components_badge_style_css.js.map
