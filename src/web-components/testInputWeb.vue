@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="flex flex-col space-y-2">
         <puik-input-web type="password" />
         <puik-input-web type="number" />
@@ -24,4 +24,4 @@ onMounted(() => {
 })
 </script>
 
-<style scoped></style>
+<style scoped></style> -->

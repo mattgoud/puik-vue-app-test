@@ -13,7 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@prestashopcorp/puik-components": "2.0.0-beta.2",
+    "@prestashopcorp/puik-components": "beta",
     "@prestashopcorp/puik-resolver": "beta",
     "@prestashopcorp/puik-tailwind-preset": "beta",
     "@prestashopcorp/puik-theme": "beta",
