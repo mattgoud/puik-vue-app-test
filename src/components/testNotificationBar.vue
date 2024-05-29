@@ -5,7 +5,8 @@
 </template>
 
 <script setup lang="ts">
-// import type { PuikMessagesType } from '@prestashopcorp/puik-components';
+import type { PuikMessagesType } from '@prestashopcorp/puik-components';
+
 const messages: PuikMessagesType = [
     {
         icon: "sentiment_satisfied",

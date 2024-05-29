@@ -13,11 +13,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@prestashopcorp/puik-components": "2.0.0-beta.2",
-    "@prestashopcorp/puik-resolver": "beta",
-    "@prestashopcorp/puik-tailwind-preset": "beta",
-    "@prestashopcorp/puik-theme": "beta",
-    "@prestashopcorp/puik-web-components": "beta",
+    "@prestashopcorp/puik-components": "^2.0.0",
+    "@prestashopcorp/puik-resolver": "^2.0.0",
+    "@prestashopcorp/puik-tailwind-preset": "^2.0.0",
+    "@prestashopcorp/puik-theme": "^2.0.0",
+    "@prestashopcorp/puik-web-components": "^2.0.0",
     "pinia": "^2.1.7",
     "tailwind": "^4.0.0",
     "vue": "^3.4.27",
