@@ -9,20 +9,20 @@ importers:
   .:
     dependencies:
       '@prestashopcorp/puik-components':
-        specifier: ^2.0.0
-        version: 2.0.0(vue@3.4.27(typescript@5.1.6))
+        specifier: ^2.0.1
+        version: 2.0.1(vue@3.4.27(typescript@5.1.6))
       '@prestashopcorp/puik-resolver':
-        specifier: ^2.0.0
-        version: 2.0.0(@prestashopcorp/puik-components@2.0.0(vue@3.4.27(typescript@5.1.6)))(@prestashopcorp/puik-theme@2.0.0)(unplugin-vue-components@0.25.2(@babel/parser@7.24.6)(rollup@3.29.4)(vue@3.4.27(typescript@5.1.6)))(vue@3.4.27(typescript@5.1.6))
+        specifier: ^2.0.1
+        version: 2.0.1(@prestashopcorp/puik-components@2.0.1(vue@3.4.27(typescript@5.1.6)))(@prestashopcorp/puik-theme@2.0.1)(unplugin-vue-components@0.25.2(@babel/parser@7.24.6)(rollup@3.29.4)(vue@3.4.27(typescript@5.1.6)))(vue@3.4.27(typescript@5.1.6))
       '@prestashopcorp/puik-tailwind-preset':
-        specifier: ^2.0.0
-        version: 2.0.0(tailwindcss@3.4.3)
+        specifier: ^2.0.1
+        version: 2.0.1(tailwindcss@3.4.3)
       '@prestashopcorp/puik-theme':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.1
+        version: 2.0.1
       '@prestashopcorp/puik-web-components':
-        specifier: ^2.0.0
-        version: 2.0.0(typescript@5.1.6)
+        specifier: ^2.0.1
+        version: 2.0.1(typescript@5.1.6)
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.1.6)(vue@3.4.27(typescript@5.1.6))
@@ -512,29 +512,29 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@prestashopcorp/puik-components@2.0.0':
-    resolution: {integrity: sha512-2QOnS7IelO+Kc04EzE9I45xC7tZ231hggYksbrd9aNBGMwISBydOS83LHWc2ytvAdKfjPRYZC5WxClCEnVv/bA==}
+  '@prestashopcorp/puik-components@2.0.1':
+    resolution: {integrity: sha512-V4yojGAFO+WbSiytjgUhgyqL+BpIuOG8WkXCx0myLOuxhElmJAR1Xy+oJmH0BX4L6bNKhZPgOhr4coi7XFU7xQ==}
     peerDependencies:
       vue: ^3.3.7
 
-  '@prestashopcorp/puik-resolver@2.0.0':
-    resolution: {integrity: sha512-fq8YRnvTB/3jB7kU3a/lCIvaa7Mw0Be9A1LufpSIakBTm4NI7LhAxStSwoktafpmaR4/XxAX5g75nqXVhiaMxw==}
+  '@prestashopcorp/puik-resolver@2.0.1':
+    resolution: {integrity: sha512-/tMHNyVWT6jstwxn/8eixsqnPYc15JATY5FhxEANy3GRQ8sUNKd+dykAwJgis+3x4lMMMxhEpDY1yz1ktDXHWA==}
     peerDependencies:
-      '@prestashopcorp/puik-components': 2.0.0
-      '@prestashopcorp/puik-theme': 2.0.0
+      '@prestashopcorp/puik-components': 2.0.1
+      '@prestashopcorp/puik-theme': 2.0.1
       unplugin-vue-components: ^0.25.0
       vue: ^3.3.0
 
-  '@prestashopcorp/puik-tailwind-preset@2.0.0':
-    resolution: {integrity: sha512-HBJLrEyAlZet3wOO7Pv9cfLVeZtFocHwo6MMQZ69RjmGY1Nfr8kUVbevDH8CNdi5c6/PSq5aBhq9PIHY2alZxQ==}
+  '@prestashopcorp/puik-tailwind-preset@2.0.1':
+    resolution: {integrity: sha512-a8ciHfPvmH4Lz9hniIOPkq3jAWI4y/70OZ+6Ft0Fbtm5GgOltyi0p3WK5dc7iPg/vBziz3WFUeLcvhRAFKSvWw==}
     peerDependencies:
       tailwindcss: ^3.0.0
 
-  '@prestashopcorp/puik-theme@2.0.0':
-    resolution: {integrity: sha512-frfOnXqJLUhKWeaum5biwn0FWg0fl3hTXWsy0jzsGX2R6NsB/alUAeP+7pZRm5IWgv1RpSTItVYMVe5eSM0q8Q==}
+  '@prestashopcorp/puik-theme@2.0.1':
+    resolution: {integrity: sha512-E6Wm0KA0hQ4EpZMNEbjWHYCS6bBvPSrqZE5inmWvtGqeCy5rvUwm6vrTMTOyBYAHLZCWMT8bxXwcTb3YzMifRQ==}
 
-  '@prestashopcorp/puik-web-components@2.0.0':
-    resolution: {integrity: sha512-RPAW1WMzStry0UCFKpXKCueuLpUfKdepIAZSI39F9Cu3xGee4ByIZRjCOUYKPrqZvjKnNebVtJcAwaTcRsxkXA==}
+  '@prestashopcorp/puik-web-components@2.0.1':
+    resolution: {integrity: sha512-GfGWOynVPi2/fpjZCjz1LYoAavDG9QOZojwSI364SX+PeNR2y0CC5CThUNcgPGM4swHIEwhq5QXvhGMpj/FJyA==}
 
   '@rollup/pluginutils@5.1.0':
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
@@ -3438,44 +3438,44 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@prestashopcorp/puik-components@2.0.0(vue@3.3.10(typescript@5.1.6))':
+  '@prestashopcorp/puik-components@2.0.1(vue@3.3.10(typescript@5.1.6))':
     dependencies:
       '@headlessui/vue': 1.7.22(vue@3.3.10(typescript@5.1.6))
       '@popperjs/core': 2.11.8
-      '@prestashopcorp/puik-theme': 2.0.0
+      '@prestashopcorp/puik-theme': 2.0.1
       '@vueuse/core': 10.10.0(vue@3.3.10(typescript@5.1.6))
       radix-vue: 1.8.2(vue@3.3.10(typescript@5.1.6))
       vue: 3.3.10(typescript@5.1.6)
     transitivePeerDependencies:
       - '@vue/composition-api'
 
-  '@prestashopcorp/puik-components@2.0.0(vue@3.4.27(typescript@5.1.6))':
+  '@prestashopcorp/puik-components@2.0.1(vue@3.4.27(typescript@5.1.6))':
     dependencies:
       '@headlessui/vue': 1.7.22(vue@3.4.27(typescript@5.1.6))
       '@popperjs/core': 2.11.8
-      '@prestashopcorp/puik-theme': 2.0.0
+      '@prestashopcorp/puik-theme': 2.0.1
       '@vueuse/core': 10.10.0(vue@3.4.27(typescript@5.1.6))
       radix-vue: 1.8.2(vue@3.4.27(typescript@5.1.6))
       vue: 3.4.27(typescript@5.1.6)
     transitivePeerDependencies:
       - '@vue/composition-api'
 
-  '@prestashopcorp/puik-resolver@2.0.0(@prestashopcorp/puik-components@2.0.0(vue@3.4.27(typescript@5.1.6)))(@prestashopcorp/puik-theme@2.0.0)(unplugin-vue-components@0.25.2(@babel/parser@7.24.6)(rollup@3.29.4)(vue@3.4.27(typescript@5.1.6)))(vue@3.4.27(typescript@5.1.6))':
+  '@prestashopcorp/puik-resolver@2.0.1(@prestashopcorp/puik-components@2.0.1(vue@3.4.27(typescript@5.1.6)))(@prestashopcorp/puik-theme@2.0.1)(unplugin-vue-components@0.25.2(@babel/parser@7.24.6)(rollup@3.29.4)(vue@3.4.27(typescript@5.1.6)))(vue@3.4.27(typescript@5.1.6))':
     dependencies:
-      '@prestashopcorp/puik-components': 2.0.0(vue@3.4.27(typescript@5.1.6))
-      '@prestashopcorp/puik-theme': 2.0.0
+      '@prestashopcorp/puik-components': 2.0.1(vue@3.4.27(typescript@5.1.6))
+      '@prestashopcorp/puik-theme': 2.0.1
       unplugin-vue-components: 0.25.2(@babel/parser@7.24.6)(rollup@3.29.4)(vue@3.4.27(typescript@5.1.6))
       vue: 3.4.27(typescript@5.1.6)
 
-  '@prestashopcorp/puik-tailwind-preset@2.0.0(tailwindcss@3.4.3)':
+  '@prestashopcorp/puik-tailwind-preset@2.0.1(tailwindcss@3.4.3)':
     dependencies:
       tailwindcss: 3.4.3
 
-  '@prestashopcorp/puik-theme@2.0.0': {}
+  '@prestashopcorp/puik-theme@2.0.1': {}
 
-  '@prestashopcorp/puik-web-components@2.0.0(typescript@5.1.6)':
+  '@prestashopcorp/puik-web-components@2.0.1(typescript@5.1.6)':
     dependencies:
-      '@prestashopcorp/puik-components': 2.0.0(vue@3.3.10(typescript@5.1.6))
+      '@prestashopcorp/puik-components': 2.0.1(vue@3.3.10(typescript@5.1.6))
       vue: 3.3.10(typescript@5.1.6)
     transitivePeerDependencies:
       - '@vue/composition-api'
