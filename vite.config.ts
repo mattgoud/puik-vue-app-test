@@ -5,7 +5,6 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-// import { PuikResolver } from '@prestashopcorp/puik'
 import { PuikResolver } from '@prestashopcorp/puik-resolver'
 import tailwindcss from 'tailwindcss';
 
@@ -40,7 +39,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@/': fileURLToPath(new URL('./src/', import.meta.url)),
     }
   }
 })

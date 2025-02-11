@@ -4,6 +4,7 @@
 <template>
   <section class="vue-components-view">
     <h2 class="puik-h2">Test Vue Components</h2>
+    <testSnackbar />
     <testAlert />
     <testAvatar />
     <testBadge />
