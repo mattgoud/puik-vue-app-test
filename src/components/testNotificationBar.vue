@@ -10,10 +10,10 @@ import type { PuikMessagesType } from '@prestashopcorp/puik-components';
 const messages: PuikMessagesType = [
     {
         icon: "sentiment_satisfied",
-        text: "Promo thèmes: profitez de -20% sur tous les thèmes PrestaShop",
+        text: "Theme sale: get -20% off all PrestaShop themes",
         link: {
             url: "#",
-            text: "J'en profite",
+            text: "Get the deal",
         },
     },
 ]

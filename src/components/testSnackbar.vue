@@ -104,7 +104,7 @@
     const { snackbarsState, removeSnackbar } = useSnackbar(
       {
         title: 'Snackbar 1',
-        description: 'youpi !!!! ça fonctionne !!!!',
+        description: 'yay !!!! it works !!!!',
         hasCloseButton: true,
         variant: 'success',
         onOpenChange: (open) => {
@@ -127,7 +127,7 @@
     const { snackbarsState, removeSnackbar } = useSnackbar(
       {
         title: 'Snackbar 2',
-        description: 'youpi !!!! ça fonctionne !!!!',
+        description: 'yay !!!! it works !!!!',
         hasCloseButton: true,
         variant: 'default',
         onOpenChange: (open) => {
@@ -150,7 +150,7 @@
     const { snackbarsState, removeSnackbar } = useSnackbar(
       {
         title: 'Snackbar 3',
-        description: 'youpi !!!! ça fonctionne !!!!',
+        description: 'yay !!!! it works !!!!',
         hasCloseButton: true,
         variant: 'danger',
         onOpenChange: (open) => {
