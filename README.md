@@ -1,52 +1,57 @@
-# vue-test-project
+# puik-vue-app-test
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue 3 sandbox app for exercising **[Puik](https://uikit.prestashop.com/)**,
+PrestaShop's UI Kit (`@prestashopcorp/puik-*`). It renders Puik components on two
+routes so they can be checked visually:
 
-## Recommended IDE Setup
+- `/` — Vue components (`src/components/test*.vue`)
+- `/web-components` — web components (`src/web-components/*.vue`)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This is a test harness, not a product.
 
-## Type Support for `.vue` Imports in TS
+## Stack
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- Vue 3.5 · Vue Router 4 · Pinia
+- Vite 6 · Vitest · TypeScript (`vue-tsc`)
+- Tailwind CSS **v4** (via `@tailwindcss/vite`)
+- Puik 2.8.1
+- **pnpm** as the package manager
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Getting started
 
 ```sh
-npm install
+pnpm install
+pnpm dev          # dev server on http://localhost:5173
 ```
 
-### Compile and Hot-Reload for Development
+## Scripts
 
 ```sh
-npm run dev
+pnpm dev          # Vite dev server
+pnpm build        # type-check + production build
+pnpm preview      # preview the production build
+pnpm test:unit    # run Vitest unit tests
+pnpm lint         # ESLint (--fix)
+pnpm format       # Prettier on src/
 ```
 
-### Type-Check, Compile and Minify for Production
+## Notes
 
-```sh
-npm run build
-```
+- **Puik components are auto-imported** via `PuikResolver` (configured in
+  `vite.config.ts`). You don't need to import them manually — just use
+  `<PuikButton />` etc. directly in templates.
+- **Styling uses Tailwind v4.** In `src/style.css`, `@import "@prestashopcorp/puik-theme"`
+  must come *before* `@import "tailwindcss"` (the theme emits font `@import` rules
+  that must stay at the top of the file).
+- The production build prints one harmless `Invalid media query` warning coming
+  from `puik-theme` itself (upstream Puik bug, not this project).
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## IDE setup
 
-```sh
-npm run test:unit
-```
+[VSCode](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+(formerly Volar; disable Vetur). `vue-tsc` is used instead of `tsc` for type
+checking of `.vue` files.
 
-### Lint with [ESLint](https://eslint.org/)
+## Configuration reference
 
-```sh
-npm run lint
-```
+See the [Vite configuration reference](https://vite.dev/config/).
