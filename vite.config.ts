@@ -6,11 +6,12 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import { PuikResolver } from '@prestashopcorp/puik-resolver'
-import tailwindcss from 'tailwindcss';
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    tailwindcss(),
     vue({
       template: {
         compilerOptions: {
@@ -29,12 +30,6 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {}
-    },
-    postcss: {
-      plugins: [
-        tailwindcss(),
-        require('autoprefixer')
-      ]
     }
   },
   resolve: {
