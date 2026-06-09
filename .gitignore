@@ -14,7 +14,7 @@ dist-ssr
 coverage
 *.local
 
-# Vite dependency pre-bundling cache (généré automatiquement)
+# Vite dependency pre-bundling cache (auto-generated)
 .vite
 
 /cypress/videos/

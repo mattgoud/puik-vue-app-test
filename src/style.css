@@ -1,4 +1,4 @@
-/* puik-theme en premier : ses @import url() de polices (IBM Plex, Material
-   Symbols) doivent précéder toute autre règle CSS (contrainte @import). */
+/* puik-theme first: its font @import url() statements (IBM Plex, Material
+   Symbols) must precede every other CSS rule (@import ordering constraint). */
 @import "@prestashopcorp/puik-theme";
 @import "tailwindcss";
