@@ -1,2 +1,4 @@
-@import "tailwindcss";
+/* puik-theme en premier : ses @import url() de polices (IBM Plex, Material
+   Symbols) doivent précéder toute autre règle CSS (contrainte @import). */
 @import "@prestashopcorp/puik-theme";
+@import "tailwindcss";
