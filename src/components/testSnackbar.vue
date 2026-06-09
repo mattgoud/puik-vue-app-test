@@ -101,7 +101,7 @@
   const state = ref<SnackbarsState>([]);
   
   const handleClick1 = () => {
-    const { sackbarsState, removeSnackbar } = useSnackbar(
+    const { snackbarsState, removeSnackbar } = useSnackbar(
       {
         title: 'Snackbar 1',
         description: 'youpi !!!! ça fonctionne !!!!',
@@ -119,12 +119,12 @@
       snackbarsLimit.value,
       snackbarRemoveDelay.value
     );
-    state.value = sackbarsState;
+    state.value = snackbarsState;
     console.log('state before remove', state.value);
   };
   
   const handleClick2 = () => {
-    const { sackbarsState, removeSnackbar } = useSnackbar(
+    const { snackbarsState, removeSnackbar } = useSnackbar(
       {
         title: 'Snackbar 2',
         description: 'youpi !!!! ça fonctionne !!!!',
@@ -142,12 +142,12 @@
       snackbarsLimit.value,
       snackbarRemoveDelay.value
     );
-    state.value = sackbarsState;
+    state.value = snackbarsState;
     console.log('state before remove', state.value);
   };
   
   const handleClick3 = () => {
-    const { sackbarsState, removeSnackbar } = useSnackbar(
+    const { snackbarsState, removeSnackbar } = useSnackbar(
       {
         title: 'Snackbar 3',
         description: 'youpi !!!! ça fonctionne !!!!',
@@ -165,7 +165,7 @@
       snackbarsLimit.value,
       snackbarRemoveDelay.value
     );
-    state.value = sackbarsState;
+    state.value = snackbarsState;
     console.log('state before remove', state.value);
   };
   
