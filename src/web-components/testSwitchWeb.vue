@@ -16,9 +16,10 @@ onMounted(() => {
     const allSwitchWeb = document.querySelectorAll('puik-switch-web')
     if (allSwitchWeb) {
         allSwitchWeb.forEach((switchWeb) => {
-            switchWeb.addEventListener('update:modelValue', (value: any) => {
-                switchWeb.setAttribute('model-value', value.detail[0])
-                console.log(value.detail[0])
+            switchWeb.addEventListener('update:modelValue', (event: Event) => {
+                const value = (event as CustomEvent<boolean[]>).detail[0]
+                switchWeb.setAttribute('model-value', String(value))
+                console.log(value)
             })
         })
     }

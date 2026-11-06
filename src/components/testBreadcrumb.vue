@@ -1,11 +1,13 @@
 <template>
     <div>
-
+        <puik-breadcrumb :items="itemsBreadCrumb" />
     </div>
 </template>
 
 <script setup lang="ts">
-const itemsBreadCrumb = [
+import type { BreadcrumbItem } from '@prestashopcorp/puik-components'
+
+const itemsBreadCrumb: BreadcrumbItem[] = [
   {
     label: 'test',
     href: '#',
