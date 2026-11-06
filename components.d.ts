@@ -16,6 +16,7 @@ declare module 'vue' {
     PuikAlert: typeof import('@prestashopcorp/puik-components')['PuikAlert']
     PuikAvatar: typeof import('@prestashopcorp/puik-components')['PuikAvatar']
     PuikBadge: typeof import('@prestashopcorp/puik-components')['PuikBadge']
+    PuikBreadcrumb: typeof import('@prestashopcorp/puik-components')['PuikBreadcrumb']
     PuikButton: typeof import('@prestashopcorp/puik-components')['PuikButton']
     PuikButtonGroup: typeof import('@prestashopcorp/puik-components')['PuikButtonGroup']
     PuikCard: typeof import('@prestashopcorp/puik-components')['PuikCard']

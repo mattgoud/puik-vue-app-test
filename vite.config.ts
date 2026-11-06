@@ -27,6 +27,11 @@ export default defineConfig({
       resolvers: [PuikResolver()],
     }),
   ],
+  build: {
+    // puik-theme ships `@media (max-width: var(--screen-xs))`, which lightningcss
+    // (Vite 8 default CSS minifier) rejects as an invalid media query.
+    cssMinify: 'esbuild',
+  },
   css: {
     preprocessorOptions: {
       scss: {}
