@@ -13,8 +13,8 @@ It is a test harness, not a product — components live as `testXxx.vue` demo fi
 
 ## Stack
 
-- **Vue 3.5** + **Vue Router 4** + **Pinia** (entry: `src/main.ts`)
-- **Vite 6** build, **Vitest** unit tests, **TypeScript** (`vue-tsc`)
+- **Vue 3.5** + **Vue Router 5** + **Pinia** (entry: `src/main.ts`)
+- **Vite 8** build, **Vitest** unit tests, **TypeScript** (`vue-tsc`)
 - **Tailwind CSS v4** via the `@tailwindcss/vite` plugin
 - **Puik 2.8.1** (`puik-components`, `puik-theme`, `puik-web-components`, `puik-resolver`)
 - **pnpm** is the package manager — always use `pnpm`, never `npm`/`yarn`

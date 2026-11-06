@@ -11,8 +11,8 @@ This is a test harness, not a product.
 
 ## Stack
 
-- Vue 3.5 · Vue Router 4 · Pinia
-- Vite 6 · Vitest · TypeScript (`vue-tsc`)
+- Vue 3.5 · Vue Router 5 · Pinia
+- Vite 8 · Vitest · TypeScript (`vue-tsc`)
 - Tailwind CSS **v4** (via `@tailwindcss/vite`)
 - Puik 2.8.1
 - **pnpm** as the package manager
